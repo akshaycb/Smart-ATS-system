@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+  transition: all 500ns ease-in-out;
+  color: #333;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+
+.h1{
+  font-size: 3.175em!important;
+  text-align: center;
+  margin: 3%;
+}
+
+button:hover{
+  /* color: blue; */
+  background-color: lightgray;
+}
+
+a:hover{
+  color: blue !important;
+}
+
+.YourHighlightClass {
+  background-color: lightyellow !important;
+}
+
+.container{
+  background-color: #e6e6e6;
+  width: 75%;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1%;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.content{
+  width: 100%;
+  min-height: 950px;
+}
+
+#url_button{
+  /* margin: auto; */
+  padding-top: 10%;
+  padding-bottom: 0%;
+}
+
+input{
+  margin: 1%;
+  width: 50% !important;
+  height: 50px;
+}
+
+button{
+  margin: 1%;
+  width: 20% !important;
+  cursor: pointer;
+}
+
+.para{
+  padding: 2%;
+  border: 0.5px solid black;
+  border-radius: 1%;
+  height: 500px;
+  overflow-y: auto;
+  background-color: lightgray;
+}
+
+.contents{
+  padding: 2%;
+  width: 90%;
+  padding-top: 5%;
+  margin: auto;
+  text-align: justify;
+}
+
+h2{
+  padding-bottom: 2%;
+}
+
+.summary_head{
+  margin-top: 5%;
+}
+
+table{
+  width: 65% !important;
+  margin: auto;
+}
+
+tr:hover{
+  background-color: #d9d9d9;
+}
